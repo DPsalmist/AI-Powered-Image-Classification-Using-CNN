@@ -42,6 +42,7 @@ AI-CNN-Image-Classification/
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
 
+
 🚀 Model Training Process
 
 Load Dataset: Utilize torchvision.datasets to load MNIST (or Fashion-MNIST).
@@ -56,6 +57,7 @@ Evaluate Performance: Compute accuracy and visualize performance using Matplotli
 
 Deploy Model: Integrate with Streamlit for real-time inference.
 
+
 📊 Performance Metrics
 
 Accuracy: XX% (Update with actual value)
@@ -64,9 +66,42 @@ Loss Reduction Over Epochs: Visualized using Matplotlib.
 
 Confusion Matrix: Shows correct vs. misclassified images.
 
+
 💡 Future Improvements
 
 Implement data augmentation to improve generalization.
+
+Use transfer learning with pre-trained models (ResNet, VGG).
+
+Experiment with hyperparameter tuning to optimize performance.
+
+Deploy model using FastAPI for a scalable REST API service.
+
+
+👨‍💻 How to Run the Project
+
+1️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+2️⃣ Train the Model (Google Colab)
+
+Open the Jupyter Notebook in Google Colab.
+
+Run all cells to train the model using GPU acceleration.
+
+3️⃣ Train the Model Locally
+
+python src/train.py
+
+4️⃣ Run Streamlit App for Inference
+
+streamlit run src/app.py
+
+
+📌 Author
+
+👤 Damilare Samuel🔗 LinkedIn📧 Email
 
 Use transfer learning with pre-trained models (ResNet, VGG).
 
